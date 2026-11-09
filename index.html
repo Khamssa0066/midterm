@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lone Starfish</title>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <!-- Main header -->
+    <header id="home">
+        <img src="images/header.jpg" alt="Starfish in the ocean">
+        <h1>Lone Starfish</h1>
+    </header>
+
+    <!-- Navigation menu -->
+    <nav>
+        <a href="#home">HOME</a>
+        <a href="#story">STORY</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+    <main>
+
+        <!-- Article section -->
+        <article id="story">
+            <h2>Life of a Starfish</h2>
+
+            <img class="article-image"
+                 src="images/starfish.jpg"
+                 alt="An orange starfish">
+
+            <p>
+                Starfish are beautiful animals that live in the ocean.
+                They are also called sea stars. They have arms that
+                usually grow around their central body. Most starfish
+                have five arms, but some have more. They live in oceans
+                around the world and can be found in different colours
+                and sizes. Starfish move slowly using small tube feet.
+                They eat small sea animals and help keep the ocean
+                environment healthy. Some starfish can even grow a
+                new arm if they lose one. They are interesting marine
+                animals that play an important role in ocean life.
+            </p>
+        </article>
+
+        <!-- Facts section -->
+        <section class="facts">
+            <h2>Facts About Starfish</h2>
+
+            <ul>
+                <li>Most starfish have five arms.</li>
+                <li>Starfish live in oceans around the world.</li>
+                <li>They move using small tube feet.</li>
+                <li>Some starfish can regrow lost arms.</li>
+            </ul>
+        </section>
+
+        <!-- Contact form -->
+        <section id="contact">
+            <h2>Contact to learn more</h2>
+
+            <form>
+
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message"></textarea>
+
+                <h3>Would you like to visit the starfish?</h3>
+
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="visit" value="yes">
+
+                <label for="no">No</label>
+                <input type="radio" id="no" name="visit" value="no">
+
+                <label for="maybe">Maybe</label>
+                <input type="radio" id="maybe" name="visit" value="maybe">
+
+                <br><br>
+
+                <input type="submit" value="SEND">
+
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; Lone Starfish.</p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
